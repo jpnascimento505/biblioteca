@@ -5,7 +5,8 @@ public class Livro {
 	private String titulo;
 	private int numPaginas;
 	private String autor;
-
+	private String editora;
+	
 	public Livro() {
 		super();
 	}
@@ -39,6 +40,14 @@ public class Livro {
 
 	public void setAutor(String autor) {
 		this.autor = autor;
+	}
+
+	public String getEditora() {
+		return editora;
+	}
+
+	public void setEditora(String editora) {
+		this.editora = editora;
 	}
 	
 	
